@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    
+}
+
+#heading{
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    transition-duration: 1s;
+    justify-content: center;
+    border: 5px solid white;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 32px -2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
